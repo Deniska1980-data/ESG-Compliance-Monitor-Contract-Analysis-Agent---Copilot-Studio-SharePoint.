@@ -163,13 +163,6 @@ The agent identifies regulatory, financial, and reporting risks based on CSRD / 
 ![Copilot Studio – Identified Risks](screenshots/screenshot_Copilot_sstudio_Identified_risks.JPG)
 
 ---
-
-## Azure OpenAI – Reasoning Layer (No Direct SharePoint Access)
-
-Standalone **Azure OpenAI** processes only the context provided by Copilot Studio.
-It never connects directly to SharePoint.
-
-
 **Copilot Studio agent analyzing ESG contract stored in SharePoint**
 
 ![Copilot Studio – Question](screenshots/screenshot_Copilot_studio_question AI_Agent.JPG)
@@ -181,6 +174,9 @@ It never connects directly to SharePoint.
 ![Copilot Studio – Identified Risks](screenshots/screenshot_Copilot_sstudio_Identified_risks.JPG)
 
 ### Azure OpenAI – Standalone Agent (no SharePoint access)
+
+Standalone **Azure OpenAI** processes only the context provided by Copilot Studio.
+It never connects directly to SharePoint.
 
 ![Azure OpenAI Agent](screenshots/screenshot_Azure_OpenAI_Agent_answearJPG.JPG)
 
