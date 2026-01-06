@@ -155,14 +155,6 @@ The agent analyzes an ESG public contract stored in SharePoint and produces stru
 ![Copilot Studio – Question to AI Agent](screenshots/screenshot_Copilot_studio_question%20AI_Agent.JPG)
 
 ---
-
-## Copilot Studio – Identified ESG Risks
-
-The agent identifies regulatory, financial, and reporting risks based on CSRD / ESRS obligations.
-
-![Copilot Studio – Identified Risks](screenshots/screenshot_Copilot_sstudio_Identified_risks.JPG)
-
----
 **Copilot Studio agent analyzing ESG contract stored in SharePoint**
 
 ![Copilot Studio – Question](screenshots/screenshot_Copilot_studio_question AI_Agent.JPG)
