@@ -143,18 +143,46 @@ Daily delay penalties
 
 Reputational risk exposure
 
-Screenshots
-SharePoint – ESG Compliance Hub
+# Screenshots – ESG Compliance Monitor
 
-SharePoint – Contracts Library
+This folder contains screenshots demonstrating the functionality and architecture of the ESG Compliance Monitor project.
 
-Copilot Studio – Knowledge Sources
+## Copilot Studio + SharePoint
 
-Copilot Studio – Question to Agent
+### SharePoint document library
+![SharePoint ESG Compliance Hub](screenshot_SharePoint_ESG_Compliance_Hub.JPG)
 
-Copilot Studio – Identified Risks
+### Contracts stored in SharePoint
+![SharePoint Documents](screenshot_SharePoint_Documents.JPG)
 
-Copilot Studio – Agent Answer
+### Copilot Studio – referenced sources
+![Copilot Studio Knowledge Sources](screenshot_Copilot_studio_ESG_Publics_Contract_Sourse.JPG)
+
+### Copilot Studio – identified risks
+![Copilot Studio Identified Risks](screenshot_Copilot_sstudio_Identified_risks.JPG)
+
+### Copilot Studio – agent answer
+![Copilot Studio Agent Answer](screenshot_Copilot_studio_AI_Agent_answear.JPG)
+
+---
+
+## Azure OpenAI (standalone)
+
+### Azure OpenAI agent playground
+![Azure OpenAI Agents](screenshot_Azure_OpenAI_Agents.JPG)
+
+### Azure OpenAI response (manual document upload required)
+![Azure OpenAI Agent Answer](screenshot_Azure_OpenAI_Agent_answearJPG.JPG)
+
+---
+
+## Architectural note
+
+These screenshots demonstrate that:
+- Copilot Studio can directly access SharePoint via Microsoft 365 permissions
+- Azure OpenAI **cannot** access SharePoint directly
+- Azure OpenAI processes only the context provided by Copilot Studio or manual upload
+
 
 Azure OpenAI – Standalone Agent (No SharePoint Access)
 
