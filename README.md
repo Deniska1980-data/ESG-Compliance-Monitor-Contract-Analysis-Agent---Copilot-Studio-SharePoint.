@@ -17,7 +17,6 @@ This solution is built using Microsoft Copilot Studio, which orchestrates Azure 
 The architecture intentionally separates AI reasoning from enterprise data access to ensure security, governance, and auditability.
 
 High-level flow:
-
 - Contracts are stored in SharePoint Online.
 - Copilot Studio retrieves document context using Microsoft 365 permissions.
 - Azure OpenAI processes only the retrieved context, not raw SharePoint data.
