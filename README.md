@@ -143,36 +143,61 @@ Daily delay penalties
 
 Reputational risk exposure
 
-# Screenshots – ESG Compliance Monitor
+# Screenshots – Copilot Studio vs Azure OpenAI
 
-This folder contains screenshots demonstrating the functionality and architecture of the ESG Compliance Monitor project.
+This folder documents the practical behavior of the ESG Compliance Monitor across Microsoft Copilot Studio, SharePoint, and standalone Azure OpenAI.
 
-## Copilot Studio + SharePoint
+---
 
-### SharePoint document library
+## SharePoint ESG Compliance Hub
+
+**SharePoint ESG Compliance Hub – document library structure**
+
 ![SharePoint ESG Compliance Hub](screenshot_SharePoint_ESG_Compliance_Hub.JPG)
 
-### Contracts stored in SharePoint
+**Contracts stored in SharePoint (03_Contracts folder)**
+
 ![SharePoint Documents](screenshot_SharePoint_Documents.JPG)
 
-### Copilot Studio – referenced sources
-![Copilot Studio Knowledge Sources](screenshot_Copilot_studio_ESG_Publics_Contract_Sourse.JPG)
+---
 
-### Copilot Studio – identified risks
+## Copilot Studio – Knowledge & Analysis
+
+**Copilot Studio – ESG public contract used as knowledge source**
+
+![Copilot Studio Contract Source](screenshot_Copilot_studio_ESG_Publics_Contract_Sourse.JPG)
+
+**Copilot Studio – referenced knowledge sources**
+
+![Copilot Studio Knowledge Sources](screenshot_Copilot_studio_question AI_Agent.JPG)
+
+**Copilot Studio – identified ESG compliance risks**
+
 ![Copilot Studio Identified Risks](screenshot_Copilot_sstudio_Identified_risks.JPG)
 
-### Copilot Studio – agent answer
+**Copilot Studio – structured ESG analysis output**
+
 ![Copilot Studio Agent Answer](screenshot_Copilot_studio_AI_Agent_answear.JPG)
 
 ---
 
-## Azure OpenAI (standalone)
+## Azure OpenAI – Standalone Agent (Comparison)
 
-### Azure OpenAI agent playground
+**Azure OpenAI – agent configuration (no SharePoint access)**
+
 ![Azure OpenAI Agents](screenshot_Azure_OpenAI_Agents.JPG)
 
-### Azure OpenAI response (manual document upload required)
+**Azure OpenAI – response requiring manual document upload**
+
 ![Azure OpenAI Agent Answer](screenshot_Azure_OpenAI_Agent_answearJPG.JPG)
+
+---
+
+## Key Observations
+
+- Copilot Studio can **retrieve SharePoint documents automatically** using Microsoft 365 permissions.
+- Standalone Azure OpenAI **cannot access SharePoint directly** and requires manual document upload or pasted text.
+- This separation is intentional and aligns with enterprise security and governance requirements.
 
 ---
 
