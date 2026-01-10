@@ -215,4 +215,3 @@ This project is for **educational and portfolio purposes only**.
 
 **Denisa Pitnerová**  
 AI Agents · DevOps · Microsoft 365 · Azure · ESG Automation
-
